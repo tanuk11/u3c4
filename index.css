@@ -1,0 +1,65 @@
+ 
+
+ #navbar{
+     height:100px;
+     width: 100%;
+     border: 1px solid red;
+     background-color: teal;
+ }
+
+ #search_input{
+
+    height: 30px;
+    width: 80%;
+    border: 1px solid black;
+    margin-left: 10%;
+    margin-top: 40px;
+    border-radius: 10px;
+ }
+
+
+ #sidebar{
+
+    height: 500px;
+    width: 20%;
+    border: 1px solid black;
+ }
+
+ #sidebar >div{
+ 
+  font-size: 30px;
+  border: 1px solid black;
+  background-color: teal;
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+    
+ }
+
+ #results{
+     border: 1px solid red;
+     height: 100%;
+     width: 100%;
+     overflow: scroll;
+     display: grid;
+     grid-template-columns: repeat(1,1fr);
+     grid-template-rows: auto;
+     gap: 5px;
+ }
+ #content{
+     height: 500px;;
+     width: 100%;
+     border: 3px yellow solid;
+     display: flex;
+ }
+
+ .div{
+    height: 150px;
+    width: 100%;
+    border: 1px solid black;
+ }
+
+ .img{
+     height: 100%;
+     width: 20%;
+ }
